@@ -1,0 +1,79 @@
+h1{
+    align-content: center;
+    font-family: "Lora";
+    color:darkgray;
+    text-align: center;
+    border-bottom: 1px black solid;
+    padding:15px;
+}
+#intro{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+#realwordle{
+    text-decoration: none;
+    color:darkgray;
+    font-size: 60px;
+}
+#realwordle:hover{
+    color:lightgray;
+}
+#guessings{
+    margin-left:560px ;
+}
+.guessingcells{
+    padding-right: 5px;
+    border:1px #404040 solid;
+    font-family: Lato;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    display: inline-block;
+    font-size:45px;
+    padding-top: 13px;
+    border-radius: 10%;
+    font-weight: bold;
+    color:#404040;
+    background-color: #f9f9f9;
+}
+#guessingtable{
+    border-collapse: separate;
+    border-spacing:5px 10px;
+}
+.keyboardrows{
+    text-align: center;
+}
+.buttons{
+    height:60px;
+    width:60px;
+    justify-content: center;
+    align-content: center;
+    padding: auto;
+    margin-right:5px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Bebas Neue";
+    border:white solid;
+    border-radius: 20%;
+    letter-spacing: 2px;
+}
+button:active{
+    background-color: lightgray;
+}
+#enter{
+    width:auto;
+    justify-content: center;
+}
+#keyboard{
+    margin-top: 50px;
+}
+#display{
+    text-align: center;
+    font-family:"Lora";
+    font-size:30px
+}
+#placeforstart{
+    text-align: center;
+}
