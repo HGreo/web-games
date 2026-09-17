@@ -1,0 +1,33 @@
+#header{
+  color:white;
+  font-family:"Roboto Slab";
+  text-align:center;
+  background-color:rgb(160,170,180);
+  padding:18px;
+  font-size:150%;
+  font-weight:bold;
+}
+#main{
+  background-color:lightGrey;
+  padding:50px 0px 50px 615px;
+}
+
+.buttons{
+  height:100px;
+  width:100px;
+  font-family:"Oswald";
+  background-color:white;
+  border:solid 1px black;
+  border-radius:1em;
+  font-size:30px;
+}
+.buttons:active{
+  background-color:red;
+}
+#footer{
+  font-family:"Roboto Slab";
+  font-size:135%;
+  background-color:rgb(160,170,180);
+  text-align:center;
+  padding:10px;
+}
